@@ -22,12 +22,14 @@
 /* font size */
 .main_tt{
   font-size: var(--main_tt);
+  font-weight: 700;
 }
 .section_tt{
   font-size: var(--section_tt);
 }
 .banner_menu{
   font-size: var(--banner_menu);
+  font-weight: 700;
 }
 .body{
   font-size: var(--body);
