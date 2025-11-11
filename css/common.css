@@ -1,2 +1,19 @@
 @import url(normalize.css);
 @import url(reset.css);
+
+:root{
+  /* Color styles */
+--dark-blue: rgba(49, 54, 71, 1);
+--navy: rgba(67, 86, 99, 1);
+--sage: rgba(163, 176, 135, 1);
+--yellow: rgba(255, 248, 212, 1);
+--right-green: rgba(236, 244, 232, 1);
+
+/* Text-size styles */
+--main_tt: 54px;
+--section_tt: 27px;
+--banner_menu: 20px;
+--body: 16px;
+--sub_tt: 36px;
+
+}
