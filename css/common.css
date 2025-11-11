@@ -18,10 +18,8 @@
 --sub_tt: 36px;
 
 }
-.container{
-  width: 1416px;
-  margin: 0 auto;
-}
+
+/* font size */
 .main_tt{
   font-size: var(--main_tt);
 }
@@ -36,4 +34,10 @@
 }
 .sub_tt{
   font-size: var(--body);
+}
+
+/* 레이아웃 */
+.container{
+  width: 1416px;
+  margin: 0 auto;
 }
