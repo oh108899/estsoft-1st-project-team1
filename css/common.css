@@ -1,5 +1,6 @@
 @import url(normalize.css);
 @import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root{
   /* Color styles */
@@ -16,4 +17,29 @@
 --body: 16px;
 --sub_tt: 36px;
 
+}
+
+/* font size */
+.main_tt{
+  font-size: var(--main_tt);
+  font-weight: 700;
+}
+.section_tt{
+  font-size: var(--section_tt);
+}
+.banner_menu{
+  font-size: var(--banner_menu);
+  font-weight: 700;
+}
+.body{
+  font-size: var(--body);
+}
+.sub_tt{
+  font-size: var(--body);
+}
+
+/* 레이아웃 */
+.container{
+  width: 1416px;
+  margin: 0 auto;
 }
