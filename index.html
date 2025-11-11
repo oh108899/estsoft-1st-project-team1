@@ -186,9 +186,58 @@
             강사진과 멘토, 운영진들의 도움으로 많은 지식과 강점을 채워 수료했습니다. 기본 지식을 쌓으려는 분도 계시겠지만 실무 경험이 더 많이 도움 될 것입니다.
           </p>
         </div>
-      </div>
+  <main>
+      <section id="application_form_section">
+      <h2>지금 무료로 신청하세요!</h2>
+      <div class="form_content_container">
+      <div class="contact_info_panel">
+      <div class="info_group">
+      <p class="label">오시는 길</p>
+      <p class="value">서울 강남구...</p>
+ </div>
+    <div class="info_group">
+    <p class="label">메일 문의</p>
+    <p class="value">abc@abc.com</p>
+  </div>
+
+    <div class="info-group">
+    <p class="label">전화 문의</p>
+    <p class="value">010-0000-0000</p>
+  </div>
+  </div>
+
+    <form action="/submit_application" method="POST" class="application_form">
+    <div class="form_group">
+    <label for="user_name">이름</label>
+    <input type="text" id="user_name" name="name" placeholder="이름을 입력 해 주세요." required>
+   <span class="validation_error_icon">①</span>
+  </div>
+
+  <div class="form_group">
+    <label for="user_phone">연락처</label>
+    <input type="tel" id="user_phone" name="phone" placeholder="전화번호를 입력 해 주세요." required>
+  </div>
+
+    <div class="form_group">
+    <label for="user_email">이메일</label>
+    <input type="email" id="user_email" name="email" placeholder="이메일을 입력 해 주세요." required>
+  </div>
+
+    <div class="form_group">
+    <label for="user_question">문의사항</label>
+    <textarea id="user_question" name="question" placeholder="궁금하신 내용이 있으시면 입력 해 주세요."></textarea>
+  </div>
+
+ <button type="submit" class="submit_button">신청하기</button>
+
+    </form>
+    </div>
     </section>
-  </main>
+    </main>
+    </div>
+    </section>
+    </main>
+
   <footer>
     <div class="footer_list">
       <h3>family site</h3>
