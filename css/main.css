@@ -327,80 +327,55 @@ header div{
     font-size: 17px; 
 }
 
-/* form */
-.form h2{
-  margin-bottom: 54px;
-  text-align: center;
+/* footer */
+
+footer {
+    background-color: #313647;
+    color: #F8F8F8;
+    padding: 40px 0 30px 0;
+    font-family: 'Open Sans', sans-serif;
 }
-.form .apply_form{
-  display: flex;
-  justify-content: center;
-  gap: 48px;
+
+.footer_list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
-.form .contact_info{
-  background: url(/images/form_bg.png) no-repeat;
-  width: 638px;
-  height: 746px;
-  display: flex;
-  flex-direction: column;
-  gap: 54px;
-  justify-content: center;
-  text-align: center;
+
+.footer_list > div {
+    width: 20%;
 }
-.contact_info .info_group{
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  gap: 27px;
+
+.footer_list h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F8F8F8;
+    margin-bottom: 25px;
+    white-space: nowrap;
+    text-transform: capitalize;
 }
-.form form{
-  display: flex;
-  flex-direction: column;
-  height: 746px;
-  justify-content: space-between;
+
+.footer_list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
-.form form label{
-  color: var(--navy);
+
+.footer_list ul li {
+    margin-bottom: 10px;
+    color: #CFCFCF;
+    font-size: 14px;
+    line-height: 1.6;
 }
-.form form input{
-  width: 457px;
-  height: 50px;
-  border: var(--navy) solid 1px;
-  border-radius: 5px;
-  padding: 10px 20px;
-  box-sizing: border-box;
-}
-.form form label{
-  display: block;
-  margin-bottom: 15px;
-  margin-left: 10px;
-  margin-top: 10px
-}
-.form form .form_group textarea{
-  width: 457px;
-  height: 189px;
-  padding: 22px 20px;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
-.form form input:focus,.form form textarea:focus{
-  background-color: rgba(163, 176, 135, 0.3);
-}
-.form_group {
-  position: relative;
-}
-.form_group span{
-  color: red;
-  font-size: 27px;
-  position: absolute;
-  right: 29px;
-  bottom: 11px;
-  display: none;
-}
-.form_group input:invalid span{
-  display: inline-block;
-}
-.submit_button.apply{
-  width: 348px;
-  height: 81px;
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+    color: #CFCFCF;
+    margin: 40px auto 0 auto;
+    padding-top: 20px;
+    border-top: 2px solid #F8F8F8;
+    width: 800px;
 }
