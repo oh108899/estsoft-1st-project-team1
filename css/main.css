@@ -206,23 +206,23 @@ header div{
   justify-content: center;
   align-items: center;
   gap: 54px;
-  margin-bottom: 81px;  
+  margin-bottom: 54px;
 }
 .speciality .titles h2{
-  font-size: var(--main_tt);
-  color: var(--dark-blue);
+  color: var(--navy);
 }
 .speciality .titles p{
   width: 776px;
   height: 67px;
   text-align: center;
-  font-size: open sans-semi-bold;
+  font-weight: 600;
+  font-size: 27px;
+  color: var(--navy);
 }
 .speciality .speciality_list{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: auto;
 }
 .speciality .speciality_list li{
   width: 256px;
@@ -232,12 +232,15 @@ header div{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 36px 25px;
+  gap: 20px;
+  padding: 36px 55px;
+  box-sizing: border-box;
+  text-align: center;
 }
-.speciality .speciality_list P{
-  display: flex;
+.speciality .speciality_list li span{
+  font-size: 54px;
 }
+
 
 /* review */
 .review {
