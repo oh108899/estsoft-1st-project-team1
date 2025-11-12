@@ -220,7 +220,7 @@ header div{
   color: var(--navy);
 }
 .speciality .speciality_list{
-  display: flex;
+  display: flex; 
   justify-content: space-between;
   align-items: center;
 }
@@ -438,4 +438,54 @@ header div{
   height: 61px;
   display: flex;
   margin: 0;
+/* footer */
+
+footer {
+    background-color: #313647;
+    color: #F8F8F8;
+    padding: 40px 0 30px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer_list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer_list > div {
+    width: 20%;
+}
+
+.footer_list h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F8F8F8;
+    margin-bottom: 25px;
+    white-space: nowrap;
+    text-transform: capitalize;
+}
+
+.footer_list ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer_list ul li {
+    margin-bottom: 10px;
+    color: #CFCFCF;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+    color: #CFCFCF;
+    margin: 40px auto 0 auto;
+    padding-top: 20px;
+    border-top: 1px solid #F8F8F8;
+    width: 800px;
 }
