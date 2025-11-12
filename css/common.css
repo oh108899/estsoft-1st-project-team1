@@ -35,7 +35,7 @@ body{
   font-size: var(--body);
 }
 .sub_tt{
-  font-size: var(--body);
+  font-size: var(--sub_tt);
 }
 
 

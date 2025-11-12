@@ -408,12 +408,15 @@ header div{
 /* Q&A */
 .qna{
   background: var(--right-green);
-  gap: 27px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 54px;
+  
 }
 .qna h2{
-  font-size: var(--sub_tt);
-  color: #000;  
+  color: #000;
+  text-transform: uppercase;
 }
 .qna ul{
   width: 900px;
@@ -430,14 +433,18 @@ header div{
   display: flex;
   justify-content: space-between;
   padding: 27px 30px;
-  gap: auto;
   background: var(--sage);
+  color: #fff;
 }
 .qna ul li div{
   width: 825px;
   height: 61px;
   display: flex;
-  margin: 0;
+  margin: 27px 37.5px;
+  font-size: 20px;
+  line-height: 27px;
+}
+
 /* footer */
 
 footer {
