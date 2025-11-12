@@ -273,3 +273,56 @@ header div{
 .review-card:first-child blockquote p {
     font-size: 17px; 
 }
+
+/* footer */
+
+footer {
+    background-color: #313647;
+    color: #F8F8F8;
+    padding: 40px 0 30px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer_list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer_list > div {
+    width: 20%;
+}
+
+.footer_list h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F8F8F8;
+    margin-bottom: 25px;
+    white-space: nowrap;
+    text-transform: capitalize;
+}
+
+.footer_list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer_list ul li {
+    margin-bottom: 10px;
+    color: #CFCFCF;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+    color: #CFCFCF;
+    margin: 40px auto 0 auto;
+    padding-top: 20px;
+    border-top: 2px solid #F8F8F8;
+    width: 800px;
+}
