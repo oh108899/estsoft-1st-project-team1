@@ -53,12 +53,24 @@ header div{
   justify-content: center;
   align-items: center;
 }
+
 /* banner */
 .banner{
-  background-color: rgba(49, 54, 71, 0.6);
   background-image: url(/images/banner_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  z-index: -2;
+}
+.banner:before{
+  content: '';
+  position:absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(49, 54, 71, 0.6);
+  z-index: -1;
 }
 .banner .titles{
   display: flex;
