@@ -252,6 +252,7 @@ header div{
   font-weight: 600;
   font-size: 27px;
   color: var(--navy);
+  letter-spacing: -0.011em;
 }
 .speciality .speciality_list{
   display: flex; 
