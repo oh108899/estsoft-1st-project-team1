@@ -92,3 +92,37 @@ header div{
 .banner .banner_list li .text_lt{
   text-decoration: line-through;
 }
+
+/* benefits */
+.benefits{
+  background: #CBF3BB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 81px;
+}
+.benefits ul{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.benefits ul li{
+  width: 456px;
+  height: 243px;
+  background: var(--yellow);
+  display: flex;
+  align-items: center;
+  padding: 15px 24px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  word-break: keep-all;
+  line-height: 1.5;
+}
+.benefits ul li p{
+  text-align: center;
+}
+.benefits ul img{
+  width: 200px;
+  height: 200px;
+}
