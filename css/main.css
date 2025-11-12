@@ -460,7 +460,6 @@ header div{
   box-sizing: border-box;
 }
 .qna ul li h3{
-  font-size: 27px;
   border-radius: 40px;
   display: flex;
   justify-content: space-between;
