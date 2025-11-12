@@ -1,3 +1,53 @@
+/* CURRICULUM */
+.curriculum{
+  display: flex;
+  gap: 24px;
+}
+.curriculum .step{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.curriculum .step h2{
+  width: 142px;
+  height: 142px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--sage);
+  color: var(--dark-blue);
+  font: open sans-bold;
+  font-size: 36px;
+}
+.curriculum .step h3{
+  font-size: var(--banner_menu);
+}
+.curriculum .step p{
+  font-size: var(--body);
+}
+.curriculum > li{
+  width: 435px;
+  height: auto;
+  gap: 20px;
+  padding: 10px;
+}
+.curriculum.material-symbols-outlined{
+  width: 27px;
+  height: 27px;
+  font-size: 27px;
+}
+.curriculum.cc_step1 ul li{
+  width: 415px;
+  height: 208px;
+  display: flex;
+  align-items: center;
+  background-color: var(--dark-blue);
+  color: var(--dark-blue);
+  padding: 9 14;
 
 .titles {
     margin-bottom: 50px;
