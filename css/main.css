@@ -172,14 +172,30 @@ header div{
   align-items: center;
   background-color: var(--sage);
   color: var(--dark-blue);
-  font: open sans-bold;
   font-size: 36px;
+  font-weight: 700;
 }
 .curriculum .step h3{
   font-size: var(--banner_menu);
 }
 .curriculum .step p{
   font-size: var(--body);
+}
+.curriculum .step>ul{
+  width: 415px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.curriculum .step>ul h4{
+  width: 415px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.cc_step1 li:first-child h4{
+  margin-bottom: 20px;
 }
 .curriculum > li{
   width: 435px;
