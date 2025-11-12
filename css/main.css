@@ -43,6 +43,16 @@ header div{
   font-size: 10px;
 }
 
+.apply{
+  width: 204px;
+  height: 60px;
+  background-color: #93BFC7;
+  color: #fff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* banner */
 .banner{
   background-color: rgba(49, 54, 71, 0.6);
@@ -188,6 +198,49 @@ header div{
   font-size: 20px;
   line-height: 27px;
 }
+
+/* SPECIALITY */
+.speciality .titles{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 54px;
+  margin-bottom: 54px;
+}
+.speciality .titles h2{
+  color: var(--navy);
+}
+.speciality .titles p{
+  width: 776px;
+  height: 67px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 27px;
+  color: var(--navy);
+}
+.speciality .speciality_list{
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+}
+.speciality .speciality_list li{
+  width: 256px;
+  height: 256px;
+  background-color: var(--yellow);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 36px 55px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.speciality .speciality_list li span{
+  font-size: 54px;
+}
+
 
 /* review */
 .review {

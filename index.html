@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0">
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
     </div>
   </header>
   <main>
-    <section class="banner big_pd">
+    <section class="banner small_pd">
       <div class="titles">
         <h2 class="main_tt">프론트엔드 개발 부트캠프 8기</h2>
         <p class="section_tt">포트폴리오 완성으로 취업까지 직진! <br> 취업을 위한 첫걸음을 이스트와 함께 하세요!</p>
@@ -34,7 +34,7 @@
       <div class="banner_list">
         <ul>
           <li>
-            <span class="material-symbols-outlined">error</span>
+            <span class="material-symbols-outlined">date_range</span>
             <h3 class="banner_menu">모집 기간</h3>
             <span>2025.11.10 12시~</span>
             <span>2025.11.10 2시</span>
@@ -205,30 +205,30 @@
         </li>
       </ul>
     </section>
-    <section class="speciality">
+    <section class="speciality big_pd">
       <div class="titles">
-        <h2>est 캠프만의 특별함</h2>
-        <p>이론과 실습의 완벽한 조화! 이스트소프트 현직자가 전달하는 실전 감각 극대화 과정을 만나보세요!</p>
+        <h2 class="main_tt">est 캠프만의 특별함</h2>
+        <p>이론과 실습의 완벽한 조화! <br>이스트소프트 현직자가 전달하는 실전 감각 극대화 과정을 만나보세요!</p>
       </div>
-      <ul class="speciality_list">
+      <ul class="speciality_list container">
         <li>
           <span class="material-symbols-outlined">code</span>
-          <h3>실무 중심 교육</h3>
+          <h3 class="banner_menu">실무 중심 교육</h3>
           <p>실제 프로젝트를 통한 실무 역량 강화</p>
         </li>
         <li>
           <span class="material-symbols-outlined">person</span>
-          <h3>현업 전문가 강사</h3>
+          <h3 class="banner_menu">현업 전문가 강사</h3>
           <p>현업 전문가 강사들이 직접 멘토링</p>
         </li>
         <li>
           <span class="material-symbols-outlined">work</span>
-          <h3>취업 연계 지원</h3>
+          <h3 class="banner_menu">취업 연계 지원</h3>
           <p>맞춤 취업 컨설팅과 EST 면접 기회 제공</p>
         </li>
         <li>
           <span class="material-symbols-outlined">groups</span>
-          <h3>소그룹 맞춤 교육</h3>
+          <h3 class="banner_menu">소그룹 맞춤 교육</h3>
           <p>소수 정예 클래스 운영으로 세심한 관리</p>
         </li>
       </ul>
@@ -264,20 +264,20 @@
           </blockquote>
         </div>
     </section>
-    <section id="form">
-      <h2>지금 무료로 신청하세요!</h2>
+    <section class="form big_pd">
+      <h2 class="main_tt">지금 무료로 신청하세요!</h2>
       <div class="apply_form">
         <div class="contact_info">
           <div class="info_group">
-            <h3>오시는 길</h3>
+            <h3 class="banner_menu">오시는 길</h3>
             <p>서울 강남구...</p>
           </div>
           <div class="info_group">
-            <h3>메일 문의</h3>
+            <h3 class="banner_menu">메일 문의</h3>
             <p>abc@abc.com</p>
           </div>
-          <div class="info-group">
-            <h3>전화 문의</h3>
+          <div class="info_group">
+            <h3 class="banner_menu">전화 문의</h3>
             <p>010-0000-0000</p>
           </div>
         </div>
@@ -285,29 +285,27 @@
           <div class="form_group">
             <label for="user_name">이름</label>
             <input type="text" id="user_name" name="name" placeholder="이름을 입력 해 주세요." required>
-            <span class="error_icon">①</span>
+            <span class="material-symbols-outlined">error</span>
           </div>
           <div class="form_group">
             <label for="user_phone">연락처</label>
             <input type="tel" id="user_phone" name="phone" placeholder="전화번호를 입력 해 주세요." required>
-            <span class="error_icon">①</span>
+            <span class="material-symbols-outlined">error</span>
           </div>
           <div class="form_group">
             <label for="user_email">이메일</label>
             <input type="email" id="user_email" name="email" placeholder="이메일을 입력 해 주세요." required>
-            <span class="error_icon">①</span>
+            <span class="material-symbols-outlined">error</span>
           </div>
           <div class="form_group">
             <label for="user_question">문의사항</label>
-            <input type="textarea" id="user_question" name="question" placeholder="궁금하신 내용이 있으시면 입력 해 주세요."></input>
+            <textarea id="user_question" name="question" placeholder="궁금하신 내용이 있으시면 입력 해 주세요." rows="6"></textarea>
           </div>
-          <button type="submit" class="submit_button">신청하기</button>
+          <button type="submit" class="submit_button apply">신청하기</button>
         </form>
       </div>
     </section>
-<<<<<<< HEAD
-=======
-    <section class="qna">
+    <section class="qna big_pd">
       <h2>q &amp; a</h2>
       <ul>
         <li class="acive">
@@ -332,7 +330,6 @@
         </li>
       </ul>
     </section>
->>>>>>> 8fef2d62e75c1121c2ba7ebcf37ad06057f70c95
   </main>
 
   <footer>
