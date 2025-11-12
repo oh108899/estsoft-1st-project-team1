@@ -220,7 +220,7 @@ header div{
   color: var(--navy);
 }
 .speciality .speciality_list{
-  display: flex;
+  display: flex; 
   justify-content: space-between;
   align-items: center;
 }
