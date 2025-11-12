@@ -209,6 +209,16 @@ header div{
   font-size: 27px;
 }
 .curriculum .cc_step1 ul{
+
+}
+.curriculum .cc_step1 ul li{
+  font-size: 20px;
+  line-height: 27px;
+}
+.curriculum .step > ul li ul{
+  display: none;
+}
+.curriculum .step > ul  li.active ul{
   width: 415px;
   height: 208px;
   background-color: var(--dark-blue);
@@ -221,10 +231,6 @@ header div{
   justify-content: center;
   border-radius: 15px;
   box-sizing: border-box;
-}
-.curriculum .cc_step1 ul li{
-  font-size: 20px;
-  line-height: 27px;
 }
 
 /* SPECIALITY */
