@@ -327,6 +327,84 @@ header div{
     font-size: 17px; 
 }
 
+/* form */
+.form h2{
+  margin-bottom: 54px;
+  text-align: center;
+}
+.form .apply_form{
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+.form .contact_info{
+  background: url(/images/form_bg.png) no-repeat;
+  width: 638px;
+  height: 746px;
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+  justify-content: center;
+  text-align: center;
+}
+.contact_info .info_group{
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.form form{
+  display: flex;
+  flex-direction: column;
+  height: 746px;
+  justify-content: space-between;
+}
+.form form label{
+  color: var(--navy);
+}
+.form form input{
+  width: 457px;
+  height: 50px;
+  border: var(--navy) solid 1px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.form form label{
+  display: block;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-top: 10px
+}
+.form form .form_group textarea{
+  width: 457px;
+  height: 189px;
+  padding: 22px 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.form form input:focus,.form form textarea:focus{
+  background-color: rgba(163, 176, 135, 0.3);
+}
+.form_group {
+  position: relative;
+}
+.form_group span{
+  color: red;
+  font-size: 27px;
+  position: absolute;
+  right: 29px;
+  bottom: 11px;
+  display: none;
+}
+.form_group input:invalid span{
+  display: inline-block;
+}
+.submit_button.apply{
+  width: 348px;
+  height: 81px;
+}
+
 /* footer */
 
 footer {
