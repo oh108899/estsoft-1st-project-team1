@@ -189,6 +189,46 @@ header div{
   line-height: 27px;
 }
 
+/* SPECIALITY */
+.speciality .titles{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 54px;
+  margin-bottom: 81px;  
+}
+.speciality .titles h2{
+  font-size: var(--main_tt);
+  color: var(--dark-blue);
+}
+.speciality .titles p{
+  width: 776px;
+  height: 67px;
+  text-align: center;
+  font-size: open sans-semi-bold;
+}
+.speciality .speciality_list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: auto;
+}
+.speciality .speciality_list li{
+  width: 256px;
+  height: 256px;
+  background-color: var(--yellow);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 36px 25px;
+}
+.speciality .speciality_list P{
+  display: flex;
+}
+
 /* review */
 .review {
     background-color: #BBCBB3;
