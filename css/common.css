@@ -55,3 +55,9 @@
   width: 200px;
   height: 200px;
 }
+.small_pd{
+  padding: 54px 0;
+}
+.big_pd{
+  padding: 81px 0;
+}
