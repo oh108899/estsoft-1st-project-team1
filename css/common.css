@@ -31,12 +31,13 @@
   font-size: var(--banner_menu);
   font-weight: 700;
 }
-.body{
+body{
   font-size: var(--body);
 }
 .sub_tt{
   font-size: var(--body);
 }
+
 
 /* 레이아웃 */
 .container{
@@ -60,4 +61,18 @@
 }
 .big_pd{
   padding: 81px 0;
+}
+img{
+  vertical-align: top;
+  display: inline-block;
+}
+.apply{
+  width: 204px;
+  height: 60px;
+  background-color: #93BFC7;
+  color: #fff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
