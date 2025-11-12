@@ -66,13 +66,3 @@ img{
   vertical-align: top;
   display: inline-block;
 }
-.apply{
-  width: 204px;
-  height: 60px;
-  background-color: #93BFC7;
-  color: #fff;
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}

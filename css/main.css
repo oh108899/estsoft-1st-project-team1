@@ -43,6 +43,16 @@ header div{
   font-size: 10px;
 }
 
+.apply{
+  width: 204px;
+  height: 60px;
+  background-color: #93BFC7;
+  color: #fff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* banner */
 .banner{
   background-color: rgba(49, 54, 71, 0.6);
