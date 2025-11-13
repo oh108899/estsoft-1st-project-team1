@@ -233,11 +233,12 @@ header div{
   border-radius: 15px;
   box-sizing: border-box;
 }
-.curriculum .step > ul  li.active ul span:active{
+.curriculum .step > ul li span{
   opacity: 0.5;
 }
-.curriculum .step > ul  li.active ul span{
+.curriculum .step > ul li.active span{
   opacity: 1;
+  transform: rotate(180deg);
 }
 
 /* SPECIALITY */
@@ -478,6 +479,13 @@ header div{
   margin: 27px 37.5px;
   font-size: 20px;
   line-height: 27px;
+}
+.qna ul li span{
+  opacity: 0.4;
+}
+.qna ul li.active span{
+  opacity: 1;
+  transform: rotate(180deg);
 }
 
 /* footer */
