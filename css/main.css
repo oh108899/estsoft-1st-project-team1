@@ -295,7 +295,7 @@ header div{
     margin-bottom: 20px;
 }
 
-.review-cards-container {
+.review_cards{
     display: flex;
     justify-content: center;
     align-items: stretch;
@@ -305,7 +305,7 @@ header div{
     gap: 80px;
 }
 
-.review-card {
+.review_card {
     flex: 1;
     min-width: 0;
     text-align: center;
@@ -315,7 +315,7 @@ header div{
     justify-content: space-between; 
 }
 
-.review-photo {
+.review_photo {
     width: 180px;
     height: 180px;
     border-radius: 10px;
@@ -324,7 +324,7 @@ header div{
     display: block;
 }
 
-.review-card blockquote {
+.review_card blockquote {
     margin: 0;
     padding: 0;
     flex-grow: 1;
@@ -333,7 +333,7 @@ header div{
     justify-content: space-between; 
 }
 
-.review-card blockquote h3 {
+.review_card blockquote h3 {
     font-size: 18px;
     font-weight: bold;
     line-height: 1.4;
@@ -342,7 +342,7 @@ header div{
     margin-bottom: 20px;
 }
 
-.review-card blockquote p {
+.review_card blockquote p {
     background-color: #A5B99B;
     padding: 20px;
     border-radius: 8px;
@@ -352,7 +352,7 @@ header div{
     text-align: center;
     flex-grow: 1;
 }
-.review-card:first-child blockquote p {
+.review_card:first-child blockquote p {
     font-size: 17px; 
 }
 
