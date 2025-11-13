@@ -233,6 +233,12 @@ header div{
   border-radius: 15px;
   box-sizing: border-box;
 }
+.curriculum .step > ul  li.active ul span:active{
+  opacity: 0.5;
+}
+.curriculum .step > ul  li.active ul span{
+  opacity: 1;
+}
 
 /* SPECIALITY */
 .speciality .titles{
