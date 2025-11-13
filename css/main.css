@@ -475,6 +475,9 @@ header div{
   color: #fff;
 }
 .qna ul li div{
+  display: none;
+}
+.qna ul li.active div{
   display: flex;
   margin: 27px 37.5px;
   font-size: 20px;
