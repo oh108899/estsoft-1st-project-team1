@@ -369,7 +369,6 @@ header div{
 .form .contact_info{
   background: url(/images/form_bg.png) no-repeat;
   width: 638px;
-  height: 746px;
   display: flex;
   flex-direction: column;
   gap: 54px;
@@ -465,8 +464,6 @@ header div{
   color: #fff;
 }
 .qna ul li div{
-  width: 825px;
-  height: 61px;
   display: flex;
   margin: 27px 37.5px;
   font-size: 20px;
