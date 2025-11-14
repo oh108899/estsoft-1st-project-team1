@@ -4,7 +4,7 @@
 - 1차 프로젝트:2025.11.10 ~ 2025.11.14
 
 ## 빠른링크
-- 기획서(피그마 슬라이드):https://www.figma.com/slides/j3huT12zSspC9vNmvQYcsf/estsoft-1st-project-%EB%A0%88%EC%84%9C%ED%8C%90%EB%8B%A4?node-id=28-27&t=gxd8bYNrgWFK7hsE-1
+- 기획서(피그마 슬라이드):[피그마 슬라이드][피그마 슬라이드][피그마 슬라이드]:https://www.figma.com/slides/j3huT12zSspC9vNmvQYcsf/estsoft-1st-project-%EB%A0%88%EC%84%9C%ED%8C%90%EB%8B%A4?node-id=28-27&t=gxd8bYNrgWFK7hsE-1
 - 디자인 원본(피그마):https://www.figma.com/design/JFGXspigeeG4BuhQ70xO0C/estsoft-1st-project-%EB%A0%88%EC%84%9C%ED%8C%90%EB%8B%A4?node-id=0-1&t=iRqYiRGGxY36eb7d-1
 
 ## 1. 프로젝트 개요
