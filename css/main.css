@@ -56,7 +56,7 @@ header div{
 
 /* banner */
 .banner{
-  background-image: url(/images/banner_bg.png);
+  background-image: url(../images/banner_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -379,7 +379,7 @@ header div{
   gap: 48px;
 }
 .form .contact_info{
-  background: url(/images/form_bg.png) no-repeat;
+  background: url(../images/form_bg.png) no-repeat;
   width: 638px;
   display: flex;
   flex-direction: column;
