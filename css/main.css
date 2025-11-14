@@ -160,7 +160,7 @@ header div{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 25px;
   text-align: center;
   padding: 27px 10px;
   height: 835px;
@@ -185,6 +185,8 @@ header div{
 }
 .curriculum .step p{
   font-size: var(--body);
+  width: 398px;
+  line-height: 27px;
 }
 .curriculum .step>ul{
   width: 415px;
