@@ -460,7 +460,7 @@ header div{
   bottom: 11px;
   display: none;
 }
-.form_group input:invalid span{
+.form_group input:invalid + span{
   display: inline-block;
 }
 .submit_button.apply{
