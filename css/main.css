@@ -576,15 +576,33 @@ footer p {
       background: #fff;
       border-radius: 20px;
       z-index: 9999;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
     }
-.popup *{
+.popup h3, .popup p, .popup hr{
   margin-bottom: 20px;
 }
 .popup h3{
-  font-size: 36px;
+  font-size: 16px;
   font-weight: 700;
+}
+.popup a{
+  text-decoration: underline;
+  color: #ff6f91;
+}
+.popup #btn{
+  margin-bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
 }
 .popup button{
   border: #000 solid 1px;
   border-radius: 5px;
+  background: var(--right-green);
+  padding: 5px;
 }
