@@ -1,6 +1,6 @@
 const popup = document.querySelector('#popup');
-const popupBtn = popup.querySelector('.close');
-const check = popup.querySelector('#agree')
+const popupBtn = document.querySelector('.close');
+const check = document.querySelector('#agree')
 const ok = document.cookie.includes('popup=ok')
 
 if(ok){
