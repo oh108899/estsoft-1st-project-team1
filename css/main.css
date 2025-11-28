@@ -564,3 +564,27 @@ footer p {
     border-top: 1px solid #F8F8F8;
     width: 800px;
 }
+
+
+/* 팝업 개인과제 */
+.popup{
+      position: fixed;
+      left: 200px;
+      top: 120px;
+      padding: 40px;
+      box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+      background: #fff;
+      border-radius: 20px;
+      z-index: 9999;
+    }
+.popup *{
+  margin-bottom: 20px;
+}
+.popup h3{
+  font-size: 36px;
+  font-weight: 700;
+}
+.popup button{
+  border: #000 solid 1px;
+  border-radius: 5px;
+}
